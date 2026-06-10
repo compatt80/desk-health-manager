@@ -1,0 +1,9 @@
+# 桌面健康管家 - 依赖库
+# 树莓派安装: pip install -r requirements.txt
+# 树莓派系统需开启 I2C: sudo raspi-config → Interface → I2C → Enable
+#进入工作目录运行 python3 main.py --debug
+
+RPi.GPIO>=0.7.0
+smbus2>=0.4.0
+opencv-python>=4.5.0
+numpy>=1.20.0
